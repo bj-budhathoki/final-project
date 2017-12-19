@@ -1,0 +1,22 @@
+/*commponent*/
+
+.carousel 
+{
+	margin-top:20px;
+
+}
+.carousel  img
+{
+	padding:3px;
+	@include add-border(1px,#cccccc,all);
+}
+.tab-pane
+{
+	padding:20px 10px;
+	@include border-radius(5px);
+	margin-bottom:20px;
+}
+.tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus
+{
+	@include add-background($primary-color);
+}

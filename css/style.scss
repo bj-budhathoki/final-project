@@ -1,0 +1,30 @@
+/*
+this is completely responsive bootstrap and sass theme
+version:1.0.0;
+author:
+release-date:2017-02-14;
+*/
+
+/* including base scss*/
+
+@import "base/variables";
+@import "base/mixin";
+@import "base/normalize";
+@import "base/base";
+
+/* including module*/
+
+@import "module/typography";
+@import "module/block";
+@import "module/button";
+@import "module/section";
+@import "module/commponent";
+@import "module/form";
+
+
+
+/* include=ing layout*/
+
+@import "layout/header";
+@import "layout/nav";
+@import "layout/footer";
